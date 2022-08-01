@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  background-color:rgb(37, 49, 158);
+}
+
+.baño_logo{
+  width: 25px; 
+  filter: invert(100%);
+} 
+
+.pv {
+  top: 235px;
+  left: 300px;
+  position: absolute;
+  width: 480px;
+  border-radius: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/*
+header img{
+  width: 25px; 
+  filter: invert(100%);
+  color:white
+} 
+*/
+body {
+  text-align: center;
+  background: linear-gradient(rgba(5,7, 12, 0.75), rgba(5,7, 12, 0.75)), url(../imagenes/fdcp.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.derecho img{
+  width: 700px;
+  height: 700px;
+  margin:20px;
+  float:left;
+  border-radius: 60px;
+  border: 2px rgb(46, 50, 85);
+}
+
+
+#nick{
+  float:right;
+  margin-right: 100px;
+  background-color: rgb(156, 156, 237,0.5);   
+  color:white;
+  border: 2px solid rgb(37, 49, 158);
+  border-radius: 5px; 
+}
+
+#nicksito{
+  margin-left: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#comentarsito{
+  margin-left: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#enviar{
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#usuario{
+  color:blue;
+}
+
+.caja_comentario{
+  margin-left: 750px;
+  margin-right: 100px;
+  box-sizing: content-box;
+  border: 3px solid rgb(46, 50, 85);
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+}
+
+.fecha_comentario{
+    background-color: rgb(72, 78, 132);
+    text-decoration: none;    
+    color: white;  
+}
+
+.comentarios{
+  padding-left: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background-color:rgb(222, 255, 255);
+}
+
+.caja-comentar-global{
+  margin-left: 750px;
+  margin-right: 100px;
+  box-sizing: content-box;
+  border: 2px solid rgb(112, 112, 112);
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  border-radius: 5px;
+}
+
+.caja-comentar-global h3{
+  text-align: left;
+  margin-left: 2%;
+  border-radius: 5px;
+}
